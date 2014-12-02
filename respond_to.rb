@@ -1,6 +1,6 @@
 obj = Object.new
-if obj.respond_to?("talk")
-	obj.talk
+if obj.respond_to?('talk')
+  obj.talk
 else
-	puts "Sorry, the object doesn't understand the 'talk' message."
+  puts "Sorry, the object doesn't understand the 'talk' message."
 end
