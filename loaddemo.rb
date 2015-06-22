@@ -1,5 +1,5 @@
 # include current directory in PATH
-$: << '.'
+$LOAD_PATH << '.'
 
 puts 'This is the first (master) program file.'
 

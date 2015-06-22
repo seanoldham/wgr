@@ -1,6 +1,5 @@
-#rewrite with Ticket class
+# Rewrite with Ticket class
 class Ticket
-
   def date
     '01/02/03'
   end
@@ -32,7 +31,6 @@ class Ticket
   def available?
     false
   end
-
 end
 
 ticket = Ticket.new
